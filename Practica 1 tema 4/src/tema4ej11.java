@@ -6,7 +6,6 @@ public class tema4ej11 {
         System.out.println("Introduce una cadena de texto");
         Scanner sc = new Scanner(System.in);
         cadena=sc.nextLine();
-        String espacios=" ";
         int contador=1;
         //Recorre toda la cadena
         for(int i=0;i<cadena.length();i++) {
@@ -18,3 +17,4 @@ public class tema4ej11 {
         System.out.println("Hay "+contador+" cadenas");
     }
 }
+
