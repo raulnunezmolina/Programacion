@@ -1,13 +1,12 @@
-// Clase hija producto, que hereda de tienda
 public class producto extends tienda {
 
-    // Atributos propios del producto
+    // Atributos 
     protected String nombre;
     protected double precio;
     protected double iva;
     protected double descuento;
 
-    // Constructor
+  
     public producto(String nombre, double precio, double iva, double descuento) {
         this.nombre = nombre;
         this.precio = precio;
@@ -21,8 +20,6 @@ public class producto extends tienda {
         this(nombre, 10, 21, 0);
     }
 
-
-    // GETTERS Y SETTERS COMPLETOS
 
 
     public String getNombre() {
@@ -78,3 +75,4 @@ public class producto extends tienda {
         return nombre + " - Precio final: " + calcularPrecio() + " €";
     }
 }
+
