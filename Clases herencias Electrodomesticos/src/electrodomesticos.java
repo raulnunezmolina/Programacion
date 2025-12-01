@@ -1,13 +1,10 @@
-public class electrodomesticos {
-    public enum Color {
+public enum Color {
         BLANCO, NEGRO, ROJO, AZUL, GRIS;
     }
-    enum valorEnergetico {
-        A, B, C, D, E, F
-    }
+
     protected double precio = 100;
     protected Color color = Color.BLANCO;
-    protected String consumoEnergetico = valorEnergetico.A.toString();
+    protected String consumoEnergetico = "A";
     protected double peso = 10;
 
     public electrodomesticos(Color color, String consumoEnergetico, double peso, double precio) {
@@ -109,4 +106,7 @@ public class electrodomesticos {
     }
 
 }
+
+
+
 
