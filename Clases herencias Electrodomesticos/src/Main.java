@@ -7,8 +7,8 @@ public class Main {
     double PrecioFinal2 = t1.precioFinal();
     double PrecioFinal3 = t2.precioFinal();
 
-        System.out.println("Precio final: " + PrecioFinal1 + " €");
-        System.out.println("Precio final: " + PrecioFinal2 + " €");
-        System.out.println("Precio final: " + PrecioFinal3 + " €");
+        System.out.println("Precio final de lavadora: " + PrecioFinal1 + " €");
+        System.out.println("Precio final tele 1: " + PrecioFinal2 + " €");
+        System.out.println("Precio final de tele 1 con extras: " + PrecioFinal3 + " €");
     }
 }
