@@ -1,14 +1,10 @@
 import java.util.Scanner;
 
 public class Main {
-
     public static void main(String[] args) {
-
         Scanner sc = new Scanner(System.in);
         int opcion;
-
         do {
-
             System.out.println("\n--- MENU EJERCICIOS SET ---");
             System.out.println("1. Ejercicio 1");
             System.out.println("2. Ejercicio 2");
@@ -26,82 +22,61 @@ public class Main {
             System.out.println("14. Ejercicio 14");
             System.out.println("15. Ejercicio 15");
             System.out.println("0. Salir");
-
             System.out.print("Elige una opción: ");
             opcion = sc.nextInt();
-
             switch (opcion) {
-
-                case 1:
-                    EjerciciosSet.ejercicio1();
-                    break;
-
-                case 2:
-                    EjerciciosSet.ejercicio2();
-                    break;
-
-                case 3:
-                    EjerciciosSet.ejercicio3();
-                    break;
-
-                case 4:
-                    EjerciciosSet.ejercicio4();
-                    break;
-
-                case 5:
-                    EjerciciosSet.ejercicio5();
-                    break;
-
-                case 6:
-                    EjerciciosSet.ejercicio6();
-                    break;
-
-                case 7:
-                    EjerciciosSet.ejercicio7();
-                    break;
-
-                case 8:
-                    EjerciciosSet.ejercicio8();
-                    break;
-
-                case 9:
-                    EjerciciosSet.ejercicio9();
-                    break;
-
-                case 10:
-                    EjerciciosSet.ejercicio10();
-                    break;
-
-                case 11:
-                    EjerciciosSet.ejercicio11();
-                    break;
-
-                case 12:
-                    EjerciciosSet.ejercicio12();
-                    break;
-
-                case 13:
-                    EjerciciosSet.ejercicio13();
-                    break;
-
-                case 14:
-                    EjerciciosSet.ejercicio14();
-                    break;
-
-                case 15:
-                    EjerciciosSet.ejercicio15();
-                    break;
-
                 case 0:
                     System.out.println("Saliendo...");
                     break;
-
+                case 1:
+                    EjerciciosSet.ejercicio1();
+                    break;
+                case 2:
+                    EjerciciosSet.ejercicio2();
+                    break;
+                case 3:
+                    EjerciciosSet.ejercicio3();
+                    break;
+                case 4:
+                    EjerciciosSet.ejercicio4();
+                    break;
+                case 5:
+                    EjerciciosSet.ejercicio5();
+                    break;
+                case 6:
+                    EjerciciosSet.ejercicio6();
+                    break;
+                case 7:
+                    EjerciciosSet.ejercicio7();
+                    break;
+                case 8:
+                    EjerciciosSet.ejercicio8();
+                    break;
+                case 9:
+                    EjerciciosSet.ejercicio9();
+                    break;
+                case 10:
+                    EjerciciosSet.ejercicio10();
+                    break;
+                case 11:
+                    EjerciciosSet.ejercicio11();
+                    break;
+                case 12:
+                    EjerciciosSet.ejercicio12();
+                    break;
+                case 13:
+                    EjerciciosSet.ejercicio13();
+                    break;
+                case 14:
+                    EjerciciosSet.ejercicio14();
+                    break;
+                case 15:
+                    EjerciciosSet.ejercicio15();
+                    break;
                 default:
                     System.out.println("Opción no válida");
             }
-
         } while (opcion != 0);
-
         sc.close();
     }
 }
