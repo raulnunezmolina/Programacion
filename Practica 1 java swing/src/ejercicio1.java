@@ -12,7 +12,7 @@ public class ejercicio1 extends JFrame {
         setTitle("Registro de Estudiante");
         setSize(350, 250);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setLocationRelativeTo(null); // Centra la ventana en la pantalla
+        setLocationRelativeTo(null); 
 
         setLayout(new GridLayout(4, 2, 10, 10));
 
@@ -39,7 +39,6 @@ public class ejercicio1 extends JFrame {
                         "Edad: " + txtEdad.getText() + "\n" +
                         "Curso: " + txtCurso.getText();
 
-                // Muestra la ventana emergente
                 JOptionPane.showMessageDialog(null, mensaje, "Información", JOptionPane.INFORMATION_MESSAGE);
             }
         });
